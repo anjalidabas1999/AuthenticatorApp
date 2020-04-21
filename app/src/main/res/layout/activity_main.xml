@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:text="Logout"
         android:id="@+id/Btnlout"
-        android:OnClick="logout"/>
+        android:gravity="center"
+        android:onClick="logout"/>
 
 
 </LinearLayout>
