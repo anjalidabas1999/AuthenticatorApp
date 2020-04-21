@@ -61,10 +61,10 @@ public class LoginActivity extends AppCompatActivity {
                     password.setError("Password is required");
                     return;
                 }
-                if(psd.length()<6){
+                /*if(psd.length()<6){
                     password.setError("Password must be >=6 characters");
                     return;
-                }
+                }*/
 
                 per.setVisibility(View.VISIBLE);
                 // Authenticate the user
